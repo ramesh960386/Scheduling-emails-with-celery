@@ -1,0 +1,9 @@
+db.sqlite3
+.DS_Store
+._.*
+*.log
+*.swp
+*.swo
+*.pyc
+*.sqlite3
+__pycache__
