@@ -1,0 +1,19 @@
+medium article link:
+https://mrprabhatmishra.medium.com/periodic-email-scheduler-in-django-with-celery-beat-72c5b4d0b9d
+
+github repository
+https://github.com/prabhatmishra1/Scheduling-emails-with-celery/tree/master
+
+Start celery in new terminal:
+celery -A <project name> worker --pool=solo -l info
+
+
+Start celery beat in new terminal
+celery -A <project name> beat -l INFO
+
+
+Run the below command if you want to kill the workers
+celery -A main purge
+
+
+https://geekyhumans.com/how-to-send-emails-asynchronously-using-python-django-and-celery/
